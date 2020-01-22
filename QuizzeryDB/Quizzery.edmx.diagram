@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="24e1f1991b4141819b4705056dddcb5c" Name="Diagram1">
+        <EntityTypeShape EntityType="QuizzeryModel.Answer" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuizzeryModel.Category" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuizzeryModel.Level" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuizzeryModel.LevelQuestion" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuizzeryModel.Question" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuizzeryModel.QuestionAnswer" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuizzeryModel.QuestionType" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuizzeryModel.sysdiagram" Width="1.5" PointX="7.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuizzeryModel.User" Width="1.5" PointX="3" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuizzeryModel.UserLevel" Width="1.5" PointX="5.25" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="QuizzeryModel.FK_QuestionAnswers_Answer" ManuallyRouted="false" />
+        <AssociationConnector Association="QuizzeryModel.FK_Level_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="QuizzeryModel.FK_LevelQuestions_Level" ManuallyRouted="false" />
+        <AssociationConnector Association="QuizzeryModel.FK_UserLevels_Level" ManuallyRouted="false" />
+        <AssociationConnector Association="QuizzeryModel.FK_LevelQuestions_Question" ManuallyRouted="false" />
+        <AssociationConnector Association="QuizzeryModel.FK_Question_QuestionType" ManuallyRouted="false" />
+        <AssociationConnector Association="QuizzeryModel.FK_QuestionAnswers_Question" ManuallyRouted="false" />
+        <AssociationConnector Association="QuizzeryModel.FK_UserLevels_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
