@@ -97,27 +97,7 @@ namespace QuizzeryAPI.Controllers
             return CreatedAtAction("GetUser", new { id = user.Id }, user);
         }
 
-        // DELETE: api/Users/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUser([FromRoute] int id)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            var user = await _context.User.FindAsync(id);
-            if (user == null)
-            {
-                return NotFound();
-            }
-
-            _context.User.Remove(user);
-            await _context.SaveChangesAsync();
-
-            return Ok(user);
-        }
-
+     
         private bool UserExists(int id)
         {
             return _context.User.Any(e => e.Id == id);

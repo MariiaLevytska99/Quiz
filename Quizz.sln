@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizz.Android", "Quizz\Quizz.Android\Quizz.Android.csproj", "{FED8519A-7898-436B-B317-05CD95E672D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizz", "Quizz\Quizz\Quizz.csproj", "{76D202A6-85C4-4490-8589-F1C1D3E33DB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quizz", "Quizz\Quizz\Quizz.csproj", "{76D202A6-85C4-4490-8589-F1C1D3E33DB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizzeryAPI", "QuizzeryAPI\QuizzeryAPI.csproj", "{45C41DAB-B2A2-4119-9D90-0520A8A23DA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizzeryAPI", "QuizzeryAPI\QuizzeryAPI.csproj", "{45C41DAB-B2A2-4119-9D90-0520A8A23DA1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizzeryDB", "QuizzeryDB\QuizzeryDB.csproj", "{24E0F9C9-2D5F-4A7A-95D1-3E5ED7570A42}"
 EndProject

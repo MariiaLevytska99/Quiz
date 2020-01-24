@@ -49,6 +49,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="refit">
+      <Version>5.0.23</Version>
+    </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.Buttons">
       <Version>17.4.0.44</Version>
     </PackageReference>
